@@ -1,4 +1,7 @@
-# test coverage for  [homebridge-homeassistant (v2.0.7)](https://github.com/home-assistant/homebridge-homeassistant#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-homeassistant.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-homeassistant) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-homeassistant.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-homeassistant)
+# npmtest-homebridge-homeassistant
+
+#### basic test-coverage for  [homebridge-homeassistant (v2.0.7)](https://github.com/home-assistant/homebridge-homeassistant#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-homebridge-homeassistant.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-homebridge-homeassistant) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-homebridge-homeassistant.svg)](https://travis-ci.org/npmtest/node-npmtest-homebridge-homeassistant)
+
 #### Homebridge plugin for Home Assistant: https://home-assistant.io
 
 [![NPM](https://nodei.co/npm/homebridge-homeassistant.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/homebridge-homeassistant)
@@ -84,7 +87,8 @@
     "scripts": {
         "test": "eslint index.js accessories/*"
     },
-    "version": "2.0.7"
+    "version": "2.0.7",
+    "bin": {}
 }
 ```
 
